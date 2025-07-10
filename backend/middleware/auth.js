@@ -1,7 +1,7 @@
 const ErrorHander = require("../utils/errorhander");
 const catchAsyncErrors = require("./catchAsyncErrors");
 const jwt = require("jsonwebtoken");
-const User = require("../Models/userModel");
+const User = require("../models/userModel");
 
 // Token Verification Middleware
 exports.isAuthenticatedUser = catchAsyncErrors(async (req, res, next) => {
