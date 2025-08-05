@@ -1,7 +1,7 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const User = require("../Models/userModel");
-const ErrorHander = require("../utils/errorhander");
+const User = require("../models/userModel");
+return next(new ErrorHandler(...)); 
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 
 // Register User
